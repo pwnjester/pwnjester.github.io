@@ -23,20 +23,20 @@ a {
 
 /* Navigation */
 .navbar {
-  background-color: #111c22;
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding: 1rem 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  border-bottom: 1px solid #2a3942;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 2rem;
+  width: 100%;
 }
 
 .nav-logo {
